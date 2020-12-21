@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "hi", "hello bottie", "Hey Bottie", "Hello Bottie", "Hi Bottie", "hey bottie", "Hello", "hello", "hey", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi, whats up?", "Hi", "Hello there", "Hey", "Hello"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "bye bottie", "Bye Bottie", "bye", "Goodbye", "I am Leaving", "Have a Good day", "gotta go", "bye!", "Bye!", "Gotta go Bottie"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Bye", "See you later", "Have a good day"],
+         "context_set": ""
+        },
+        {"tag": "how are you",
+         "patterns": ["how are you", "Whats up?", "Whats up", "whats up", "How are you?", "Hows it going Bottie?", "how have you been?", "How have you been?", "How are you doing?", "How are you doing Bottie?", "How have you been Bottie?", "How are you Bottie?", "how are you doing bottie", "how have you been bottie","how are you bottie", "how are you doing", "hows it going", "hows it going bottie"],
+         "responses": ["Good", "Doing good, thank you.", "Great", "I'm doing good", "I'm alright", "I'm doing great.", "I'm okay.", "I've been doing good."],
+         "context_set": ""
+        },
+
+        {"tag": "age",
+         "patterns": ["how old are you bottie", "how old are you", "what is your age bottie", "how old are you bottie", " whats your age?", "How old are you Bottie?", "How old are you?"],
+         "responses": ["I am 24 years old!", "24 years old", "I'm 24", "24"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you", "who are you?", "whats your name?"],
+         "responses": ["You can call me Bottie.", "I'm Bottie!", "I'm Bottie the BOT.", "Bottie"],
+         "context_set": ""
+        },
+        {"tag": "fun facts",
+          "patterns": ["bottie give me some fun facts", "can you tell me a fun fact", "tell me a fun fact", "fun fact", "bottie tell me a fun fact"],
+          "responses": ["Fun Fact: There are currently 42 species of dolphins and seven species of porpoises.", "Fun Fact: Three dogs survived the Titanic sinking", "Fun Fact: Bananas are curved because they grow towards the sun.", "Fun Fact: Most Korean people don’t have armpit odor.", "Fun Fact: The original London Bridge is now in Arizona.", "Fun Fact: During your lifetime, you will produce enough saliva to fill two swimming pools.", "Fun Fact: Car manufacturer Volkswagen makes sausages.", "Fun Fact: Only 5% of the ocean has been explored.", "Fun Fact: The top six foods that make your fart are beans, corn, bell peppers, cauliflower, cabbage and milk."]
+        },
+          {"tag": "joke",
+         "patterns": ["Tell me a joke Bottie", "tell me a joke", "tell me a joke bottie", "Can you tell me a joke bottie?", "Do you have any jokes Bottie?", "Can you tell me a joke", "Do you have any jokes?"],
+         "responses": ["I ate a clock yesterday, it was very time-consuming.","Have you played the updated kids' game? I Spy With My Little Eye . . . Phone.", "A perfectionist walked into a bar...apparently, the bar wasn’t set high enough.", "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.", "Did you hear about the semi-colon that broke the law? He was given two consecutive sentences.", "I've just written a song about tortillas; actually, it’s more of a rap.", "I woke up this morning and forgot which side the sun rises from, then it dawned on me."],
+         "context_set": ""
+        },
+        {"tag": "good jokes",
+         "patterns": ["Tell me a good joke Bottie", "tell me a good joke", "tell me a good joke bottie", "Do you have any good jokes?", "Do you have any good jokes Bottie?", "Got any good jokes?", "Have any good jokes?"],
+         "responses": ["Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?", "Intelligence is like an underwear. It is important that you have it, but not necessary that you show it off.", "Don't spell part backwards. It's a trap.", "I wasn't originally going to get a brain transplant, but then I changed my mind.", "I'm reading a book about anti-gravity. It's impossible to put down."],
+         "context_set": ""
+        },
+        {"tag": "breakfast",
+         "patterns": ["what should i make for breakfast", "bottie what should i eat for breakfast", "bottie what should i eat for breakfast", "bottie can you give me some breakfast ideas?", "can you give me some breakfast ideas", "what should I make for breakfast"],
+         "responses": ["Omelet", "Oatmeal", "Cereal", "Yogurt with fruit", "Eggs and bacon", "French toast", "Crepes","Granola","Avocado toast", "An english muffin", "A bagel!", "iced coffee and a donut."],
+         "context_set": ""
+        },
+        {"tag": "lunch",
+          "patterns": ["what should i make for lunch", "bottie what should i eat for lunch", "bottie what should i eat for lunch", "bottie can you give me some lunch ideas?", "can you give me some lunch ideas", "what should I make for lunch"],
+          "responses": ["A turkey sandwich!", "Snacks", "Pasta", "Mac n cheese", "A turkey burger", "Salad", "Pesto pasta with veggies", "A veggie wrap!" ],
+          "context_set": ""
+        },
+          {"tag": "dinner",
+          "patterns": ["what should i make for dinner", "bottie what should i eat for dinner", "bottie what should i eat for dinner", "bottie can you give me some dinner ideas?", "can you give me some dinner ideas", "what should I make for dinner"],
+          "responses": ["Turkey and mashed potatoes.", "Broccoli cheese casserole!", "Spaghetti and meatballs with french bread.", "Tacos", "Nachos", "Steak and mashed potatoes", "Salad", "Roasted chicken and veggies"],
+          "context_set": ""
+        }
+            ]
+}
